@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
         "User Management": {
           "POST /api/user": "Create a user",
           "GET /api/user/:id": "Get user details",
-          "POST /api/login": "User login"
+          
         },
         "Expense Management": {
           "POST /api/expense": "Add an expense",
